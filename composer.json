@@ -94,14 +94,6 @@
             "drupal/core": "-p2"
         }
     },
-    "autoload":{
-        "classmap":[
-            "scripts/composer/ScriptHandler.php"
-        ],
-        "files":[
-            "load.environment.php"
-        ]
-    },
     "minimum-stability": "dev",
     "scripts":{
         "build-assets": [
