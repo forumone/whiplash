@@ -1,0 +1,61 @@
+name: Whiplash
+type: profile
+description: 'Forum One starting profile for new Drupal 8 builds.'
+core: 8.x
+install:
+  - admin_toolbar
+  - admin_toolbar_links_access_filter
+  - admin_toolbar_tools
+  - anchor_link
+  - automated_cron
+  - block
+  - block_content
+  - breakpoint
+  - ckeditor
+  - ckeditor_indentblock
+  - ctools
+  - dblog
+  - dynamic_page_cache
+  - editor
+  - field
+  - field_group
+  - field_ui
+  - file
+  - filter
+  - google_tag
+  - image
+  - inline_form_errors
+  - libraries
+  - link
+  - metatag
+  - metatag_dc
+  - metatag_open_graph
+  - metatag_twitter_cards
+  - metatag_views
+  - media
+  - media_library
+  - node
+  - options
+  - page_cache
+  - path
+  - path_alias
+  - redirect
+  - save_edit
+  - search_api
+  - search_api_db
+  - system
+  - taxonomy
+  - text
+  - token
+  - toolbar
+  - twig_field_value
+  - twig_tweak
+  - update
+  - user
+  - views_ui
+  - pathauto
+  - views
+themes:
+  - gesso
+  - seven
+  - stark

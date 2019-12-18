@@ -1,0 +1,23 @@
+uuid: ee41b314-740b-41d1-a707-88105598acb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_width
+    - media.type.remote_video
+id: media.remote_video.field_width
+field_name: field_width
+entity_type: media
+bundle: remote_video
+label: Width
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,23 @@
+<?php
+
+use Drupal\user\Entity\User;
+
+/**
+ * @file
+ * Install, update and uninstall hooks for the Whiplash install profile.
+ */
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ *
+ * @see system_install()
+ */
+function whiplash_install() {
+  // First, do everything that is done in the standard profile.
+  // Assign user 1 the "administrator" role.
+  $user = User::load(1);
+  $user->roles[] = 'administrator';
+  $user->save();
+}

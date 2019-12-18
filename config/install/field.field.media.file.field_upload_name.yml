@@ -1,0 +1,19 @@
+uuid: 4c7ebdab-3fd2-45f7-8682-8aeff38a45a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_upload_name
+    - media.type.file
+id: media.file.field_upload_name
+field_name: field_upload_name
+entity_type: media
+bundle: file
+label: 'Upload Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,62 @@
+uuid: 5a5f2945-f91b-4e38-ae44-090194161b1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+  module:
+    - ckeditor
+format: basic_html
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Headings
+          items:
+            - Format
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Italic
+            - Blockquote
+        -
+          name: Links
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Lists
+          items:
+            - BulletedList
+            - NumberedList
+        -
+          name: Indentation
+          items:
+            - Indent
+            - Outdent
+        -
+          name: Tools
+          items:
+            - Source
+        -
+          name: Media
+          items:
+            - DrupalMediaLibrary
+  plugins:
+    stylescombo:
+      styles: ''
+    language:
+      language_list: un
+    indentblock:
+      enable: 1
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

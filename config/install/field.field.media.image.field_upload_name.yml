@@ -1,0 +1,19 @@
+uuid: e75dff8b-a36f-4b4d-8a23-53c30f09632f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_upload_name
+    - media.type.image
+id: media.image.field_upload_name
+field_name: field_upload_name
+entity_type: media
+bundle: image
+label: 'Upload Name'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

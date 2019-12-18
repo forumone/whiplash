@@ -1,0 +1,23 @@
+uuid: c31dca78-b069-4d2e-946c-d3323944c850
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rpwvgyEURXLz_JjgMCrkS1rUv-0k3L79BpO-ReN7fDI
+id: node
+label: Content
+tags:
+  canonical_url: '[node:url]'
+  title: '[node:title] | [site:name]'
+  description: '[node:summary]'
+  dcterms_title: '[node:title]'
+  dcterms_description: '[node:summary]'
+  og_description: '[node:summary]'
+  og_title: '[node:title]'
+  og_image: '[site:logo]'
+  twitter_cards_type: summary_large_image
+  twitter_cards_description: '[node:summary]'
+  twitter_cards_page_url: '[node:url]'
+  twitter_cards_creator: '@forumone'
+  twitter_cards_title: '[node:title]'
+  twitter_cards_image: '[site:logo]'
