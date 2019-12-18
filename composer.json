@@ -3,8 +3,26 @@
     "type": "drupal-profile",
     "description": "Forum One default installation for starting Drupal 8 builds.",
     "license": "GPL-2.0-or-later",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor/indentblock",
+                "version": "4.11.4",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://download.ckeditor.com/indentblock/releases/indentblock_4.11.4.zip",
+                    "type": "zip"
+                },
+                "require": {
+                    "composer/installers": "^1.2.0"
+                }
+            }
+        }
+    ],
     "require": {
         "ckeditor/indentblock": "^4.11.4",
+        "drupal-composer/drupal-scaffold": "^2.0.1",
         "drupal/address": "^1.7",
         "drupal/admin_toolbar": "^2.0",
         "drupal/allowed_formats": "^1.1",
@@ -84,21 +102,6 @@
         "files":[
             "load.environment.php"
         ]
-    },
-    "repositories": {
-        "drupal": {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        },
-        "assets": {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
-        },
-        "dev": {
-            "type": "github",
-            "url": "https://github.com/acquia/lightning-dev",
-            "no-api": true
-        }
     },
     "minimum-stability": "dev",
     "scripts":{
