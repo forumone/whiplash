@@ -1,5 +1,6 @@
 <?php
 
+use Drupal\user\Entity\Role;
 use Drupal\user\Entity\User;
 
 /**
@@ -20,4 +21,12 @@ function whiplash_install() {
   $user = User::load(1);
   $user->roles[] = 'administrator';
   $user->save();
+
+  // Then, grant all permissions to the Administrator role.
+  $permissions = \Drupal::service('user.permissions')->getPermissions();
+  $admin_role = Role::load('administrator');
+  foreach ($permissions as $key => $permission) {
+    $admin_role->grantPermission($key);
+  }
+  $admin_role->save();
 }
