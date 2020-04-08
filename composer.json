@@ -11,6 +11,7 @@
         "drupal/allowed_formats": "^1.1",
         "drupal/anchor_link": "^1.6",
         "drupal/ckeditor_indentblock": "^1.0@beta",
+        "drupal/config_split": "^1.4",
         "drupal/components": "^1.1",
         "drupal/config_direct_save": "^1.0",
         "drupal/config_installer": "^1.0",
