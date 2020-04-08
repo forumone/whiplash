@@ -4,8 +4,14 @@ status: true
 dependencies:
   config:
     - core.entity_form_mode.media.media_library
+    - field.field.media.remote_video.field_author
+    - field.field.media.remote_video.field_height
     - field.field.media.remote_video.field_media_oembed_video
+    - field.field.media.remote_video.field_provider
+    - field.field.media.remote_video.field_width
     - media.type.remote_video
+_core:
+  default_config_hash: Ao9r4zo77Eukp-imJC-HdTnAbvbMQ0izWYrY8-g-5b8
 id: media.remote_video.media_library
 targetEntityType: media
 bundle: remote_video
@@ -21,7 +27,11 @@ content:
     region: content
 hidden:
   created: true
+  field_author: true
+  field_height: true
   field_media_oembed_video: true
+  field_provider: true
+  field_width: true
   path: true
   status: true
   uid: true

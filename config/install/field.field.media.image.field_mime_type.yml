@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.storage.media.field_mime_type
     - media.type.image
+_core:
+  default_config_hash: zjwbQFN4gjwrvoC4YZW1-uS8eBHnEiP7wizuVN5Iins
 id: media.image.field_mime_type
 field_name: field_mime_type
 entity_type: media

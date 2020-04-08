@@ -5,7 +5,7 @@ dependencies:
   module:
     - media
 _core:
-  default_config_hash: FrZy1tmuXJcOxhXlBoI1Hsnen5TT-9OCC1iolWH84go
+  default_config_hash: Y8GuU-_cGi3xkfjgT-1f8xUccqy-_3xtFw55IFkK2nk
 id: media_delete_action
 label: 'Delete media'
 type: media

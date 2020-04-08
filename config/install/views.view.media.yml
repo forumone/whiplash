@@ -9,7 +9,7 @@ dependencies:
     - media
     - user
 _core:
-  default_config_hash: rRzAWaXpJGYA2gPG6BmGxy8gfFd4srCc-LQY3JB6tR8
+  default_config_hash: 6O0NjdOluAzB6keFE_nb6jkYH4Fdm6Qx_rhA5TixMAs
 id: media
 label: Media
 module: views

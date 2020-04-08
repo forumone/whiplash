@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - media
+_core:
+  default_config_hash: OL8b3p03TSkM9C--s_O6CZHArGmbZo6flrLmrlZOvEA
 name: 'Basic HTML'
 format: basic_html
 weight: 0
@@ -43,6 +45,6 @@ filters:
     weight: 100
     settings:
       default_view_mode: default
-      allowed_media_types: {  }
       allowed_view_modes:
         default: default
+      allowed_media_types: {  }

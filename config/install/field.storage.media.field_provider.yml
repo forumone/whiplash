@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - media
+_core:
+  default_config_hash: e_DqZIRuWOYDBpTii55jQv42eNXkTZOSLzyYLyKexnc
 id: media.field_provider
 field_name: field_provider
 entity_type: media

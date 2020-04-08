@@ -8,7 +8,7 @@ dependencies:
   module:
     - pathauto
 _core:
-  default_config_hash: lno8QThS348UX-kaUsagJtCnuPHKLXYnTQiF_9HSDWA
+  default_config_hash: hoPjiXgoFm38bz8BORD2FYUM-h83raixJelqEJs8lC4
 id: pathauto_update_alias_node
 label: 'Update URL alias'
 type: node

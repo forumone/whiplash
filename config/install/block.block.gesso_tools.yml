@@ -9,7 +9,7 @@ dependencies:
   theme:
     - gesso
 _core:
-  default_config_hash: uUF2GYN2x5fcmOu26M-gwqUA-yVWMDD_MRmnYfmPzlM
+  default_config_hash: HGr6vAnogBAfOLEIqJVDVG9T1fZDwqvfiSGoX10I8_8
 id: gesso_tools
 theme: gesso
 region: header

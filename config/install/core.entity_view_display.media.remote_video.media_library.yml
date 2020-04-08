@@ -4,11 +4,17 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.media.media_library
+    - field.field.media.remote_video.field_author
+    - field.field.media.remote_video.field_height
     - field.field.media.remote_video.field_media_oembed_video
+    - field.field.media.remote_video.field_provider
+    - field.field.media.remote_video.field_width
     - image.style.medium
     - media.type.remote_video
   module:
     - image
+_core:
+  default_config_hash: jNN0b3Yla-caIE0SrYvKxhphbfyNpAr59riOKbFqFDI
 id: media.remote_video.media_library
 targetEntityType: media
 bundle: remote_video
@@ -25,7 +31,11 @@ content:
     region: content
 hidden:
   created: true
+  field_author: true
+  field_height: true
   field_media_oembed_video: true
+  field_provider: true
+  field_width: true
   name: true
   search_api_excerpt: true
   uid: true

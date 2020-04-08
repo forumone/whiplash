@@ -13,6 +13,8 @@ dependencies:
     - file
     - image
     - user
+_core:
+  default_config_hash: 3U2ttyd2i5U1YKE6MhLV0-t4hc1_ywYPEJM3Oao7Lnc
 id: media.file.default
 targetEntityType: media
 bundle: file

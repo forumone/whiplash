@@ -2,6 +2,8 @@ uuid: fa28241a-0f23-4ca3-832e-821cab7fea54
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: lW-rpuvtBVmxTAIZYvpipYzKO8PGK369P6uDMoXG6q4
 name: 'Basic Page'
 type: page
 description: ''

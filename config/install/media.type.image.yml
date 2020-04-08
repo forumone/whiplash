@@ -2,6 +2,8 @@ uuid: 36a7cd8b-2223-4352-9db3-87a028df1d30
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: oJ59pZFKkUT4JdzX4UWzLVJ6UxxKj7RgzgY5Mf2GVIs
 id: image
 label: Image
 description: ''

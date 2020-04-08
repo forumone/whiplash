@@ -7,7 +7,7 @@ dependencies:
   theme:
     - stark
 _core:
-  default_config_hash: 5MNdk3fpMKx_xxBTcz2T11DL4XEU1H5SgHl8BsYdFsA
+  default_config_hash: aFepzlpBHkTiJXBsb1WG07bPwK3NZvDLyALQUjUK6Rk
 id: stark_messages
 theme: stark
 region: highlighted

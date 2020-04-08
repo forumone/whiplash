@@ -10,6 +10,8 @@ dependencies:
   module:
     - text
     - user
+_core:
+  default_config_hash: HuYuTwc3rwDLUvHcPJJLnwPDt9dEmU9UtQ26ahvJPoo
 id: node.page.teaser
 targetEntityType: node
 bundle: page
