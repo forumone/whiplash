@@ -39,7 +39,7 @@
         "drupal/twig_field_value": "^1.2",
         "drupal/twig_tweak": "^2.4",
         "rvtraveller/qs-composer-installer": "^1.1",
-        "webmozart/path-util": "^2.3"
+        "webmozart/path-util": "^2.3",
         "drupal/username_enumeration_prevention": "^1.0"
     },
     "require-dev": {
