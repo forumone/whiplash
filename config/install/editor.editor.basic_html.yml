@@ -27,8 +27,9 @@ settings:
         -
           name: Links
           items:
-            - DrupalLink
-            - DrupalUnlink
+            - Link
+            - Unlink
+            - Anchor
         -
           name: Lists
           items:
