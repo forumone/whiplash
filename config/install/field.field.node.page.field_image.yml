@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_image
     - media.type.image
     - node.type.page
+_core:
+  default_config_hash: 8hEhu4K2lflkIvrq84tWb0kUJfc7_rslS8PY9mGap3Y
 id: node.page.field_image
 field_name: field_image
 entity_type: node

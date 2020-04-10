@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - media
+_core:
+  default_config_hash: x5P7_u2WbvjJ9dnOkAji3DGdZ3C3lkfCs908gbk6Xus
 id: media.field_upload_name
 field_name: field_upload_name
 entity_type: media

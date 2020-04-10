@@ -1,9 +1,11 @@
-uuid: cbd40cdc-d3cf-4b9b-9a8e-25d7ae082ffd
+uuid: b1ead4c2-9ea0-427c-b185-9d8fa93ac922
 langcode: en
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: BrpTDak-YaJrJ9hZvSCmfEdCdTFbSsHFCRaI-PCD2RA
 id: node.token
 label: Token
 targetEntityType: node

@@ -6,6 +6,8 @@ dependencies:
     - filter.format.basic_html
   module:
     - ckeditor
+_core:
+  default_config_hash: Og66wfrtgXXmASOOD0TQPCcFWqH0hXlSDavtJQKLGD4
 format: basic_html
 editor: ckeditor
 settings:
@@ -25,8 +27,9 @@ settings:
         -
           name: Links
           items:
-            - DrupalLink
-            - DrupalUnlink
+            - Link
+            - Unlink
+            - Anchor
         -
           name: Lists
           items:

@@ -5,7 +5,7 @@ dependencies:
   module:
     - user
 _core:
-  default_config_hash: J5EbGNdz0YUaSIYKwomyFSOtZjsV9TrBA3qdb3ZwBS0
+  default_config_hash: 2__1JUDVPsQhW6CEGUJ-QZa5vCRSnge18uRAev2hbCk
 id: user_admin_people
 label: People
 module: user

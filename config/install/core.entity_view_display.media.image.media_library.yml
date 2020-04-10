@@ -4,11 +4,18 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.media.media_library
+    - field.field.media.image.field_file_size
+    - field.field.media.image.field_height
     - field.field.media.image.field_media_image
+    - field.field.media.image.field_mime_type
+    - field.field.media.image.field_upload_name
+    - field.field.media.image.field_width
     - image.style.medium
     - media.type.image
   module:
     - image
+_core:
+  default_config_hash: RVG58PwPVW6RBa-r0Rkry08oSq58DrXm6yLV8GDS61w
 id: media.image.media_library
 targetEntityType: media
 bundle: image
@@ -25,7 +32,12 @@ content:
     region: content
 hidden:
   created: true
+  field_file_size: true
+  field_height: true
   field_media_image: true
+  field_mime_type: true
+  field_upload_name: true
+  field_width: true
   name: true
   search_api_excerpt: true
   uid: true

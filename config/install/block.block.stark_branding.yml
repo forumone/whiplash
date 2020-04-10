@@ -7,7 +7,7 @@ dependencies:
   theme:
     - stark
 _core:
-  default_config_hash: fRKXNB91UxDvEMkzCR8ZBsawfC6Fqbme2gtobei3gu4
+  default_config_hash: Befa6_tYpW4wAu1BTXsl_gD1Ynm5CWntVOii6k38PA8
 id: stark_branding
 theme: stark
 region: header

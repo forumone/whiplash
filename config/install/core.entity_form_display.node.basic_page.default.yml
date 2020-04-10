@@ -8,6 +8,8 @@ dependencies:
   module:
     - path
     - text
+_core:
+  default_config_hash: xQetzqCLifdoJ2lh1QxMqV5-lSrLAvU15SnS2VKvolk
 id: node.basic_page.default
 targetEntityType: node
 bundle: basic_page

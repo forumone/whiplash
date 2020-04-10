@@ -4,11 +4,16 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.media.media_library
+    - field.field.media.file.field_file_size
     - field.field.media.file.field_media_file
+    - field.field.media.file.field_mime_type
+    - field.field.media.file.field_upload_name
     - image.style.medium
     - media.type.file
   module:
     - image
+_core:
+  default_config_hash: OXib6DGBnBlgr3UjugF2RrvFprwZ9siFHb35YYMpI6U
 id: media.file.media_library
 targetEntityType: media
 bundle: file
@@ -25,7 +30,10 @@ content:
     region: content
 hidden:
   created: true
+  field_file_size: true
   field_media_file: true
+  field_mime_type: true
+  field_upload_name: true
   name: true
   search_api_excerpt: true
   uid: true

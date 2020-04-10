@@ -1,9 +1,9 @@
-uuid: 8bfe5c6c-92a9-4e56-8ee4-53f25b7dc19e
+uuid: 678cce46-76ad-4a06-b400-4b457a18a25e
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: og8sWXhBuHbLMw3CoiBEZjgqSyhFBFmcbUW_wLcfNbo
+  default_config_hash: dMTb8A1v8ba8JMqey0Krna_Ek8BRe26z9Kq-Vbe6tYY
 id: long
 label: 'Default long date'
 locked: false

@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - media
+_core:
+  default_config_hash: sUHpXV8-rAReOd3S8UxBqjJZBO3LOn61mMmaPQizj-k
 id: media.field_height
 field_name: field_height
 entity_type: media

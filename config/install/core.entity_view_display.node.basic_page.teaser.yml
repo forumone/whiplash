@@ -9,6 +9,8 @@ dependencies:
   module:
     - text
     - user
+_core:
+  default_config_hash: 8IeHlVjFtBvkuJevbBq-K6k8Xjw2MQIIA2K5R46HPtE
 id: node.basic_page.teaser
 targetEntityType: node
 bundle: basic_page

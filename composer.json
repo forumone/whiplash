@@ -3,45 +3,33 @@
     "type": "drupal-profile",
     "description": "Forum One default installation for starting Drupal 8 builds.",
     "license": "GPL-2.0-or-later",
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "ckeditor/indentblock",
-                "version": "4.11.4",
-                "type": "drupal-library",
-                "dist": {
-                    "url": "https://download.ckeditor.com/indentblock/releases/indentblock_4.11.4.zip",
-                    "type": "zip"
-                },
-                "require": {
-                    "composer/installers": "^1.2.0"
-                }
-            }
-        }
-    ],
     "require": {
         "ckeditor/indentblock": "^4.11.4",
+        "drupal-composer/drupal-scaffold": "^2.0.1",
         "drupal/address": "^1.7",
         "drupal/admin_toolbar": "^2.0",
         "drupal/allowed_formats": "^1.1",
         "drupal/anchor_link": "^1.6",
         "drupal/ckeditor_indentblock": "^1.0@beta",
+        "drupal/config_split": "^1.4",
         "drupal/components": "^1.1",
         "drupal/config_direct_save": "^1.0",
         "drupal/config_installer": "^1.0",
         "drupal/contact_storage": "1.x-dev",
         "drupal/devel": "^2.1",
+        "drupal/diff": "^1.0",
         "drupal/entityqueue": "^1.0@beta",
         "drupal/facets": "^1.4",
         "drupal/field_group": "^1.0",
         "drupal/focal_point": "^1.2",
         "drupal/google_tag": "^1.3",
         "drupal/inline_entity_form": "^1.0@RC",
-        "drupal/libraries": "3.0.0-alpha1",
+        "drupal/libraries": "^3.0",
+        "drupal/login_history": "1.x-dev",
         "drupal/maxlength": "^1.0@beta",
         "drupal/metatag": "^1.10",
         "drupal/paragraphs": "^1.8",
+        "drupal/password_policy": "3.x-dev",
         "drupal/pathauto": "^1.5",
         "drupal/rabbit_hole": "^1.0@beta",
         "drupal/redirect": "^1.4",
@@ -51,73 +39,10 @@
         "drupal/twig_field_value": "^1.2",
         "drupal/twig_tweak": "^2.4",
         "rvtraveller/qs-composer-installer": "^1.1",
-        "webmozart/path-util": "^2.3"
-
+        "webmozart/path-util": "^2.3",
+        "drupal/username_enumeration_prevention": "^1.0"
     },
     "require-dev": {
         "webflo/drupal-core-require-dev":"^8.7.0"
-    },
-    "config": {
-        "platform": {
-            "ext-gd":"1.0.0",
-            "ext-opcache":"1.0.0",
-            "ext-pdo":"1.0.0"
-        }
-    },
-    "extra": {
-        "enable-patching": true,
-        "composer-exit-on-patch-failure":true,
-        "installer-paths": {
-            "public/core":[
-                "type:drupal-core"
-            ],
-            "docroot/libraries/{$name}": [
-                "type:drupal-library",
-                "type:bower-asset",
-                "type:npm-asset"
-            ],
-            "docroot/modules/contrib/{$name}": [
-                "type:drupal-module"
-            ],
-            "docroot/profiles/contrib/{$name}": [
-                "type:drupal-profile"
-            ],
-            "docroot/themes/contrib/{$name}": [
-                "type:drupal-theme"
-            ]
-        },
-        "installer-types": [
-            "bower-asset",
-            "npm-asset"
-        ],
-        "patchLevel": {
-            "drupal/core": "-p2"
-        }
-    },
-    "minimum-stability": "dev",
-    "scripts":{
-        "build-assets": [
-            "composer install --optimize-autoloader --no-dev"
-        ],
-        "lint": "find web/modules/custom web/themes/custom -name '*.php' -exec php -l {} \\;",
-        "code-sniff": [
-            "./vendor/bin/phpcs --standard=Drupal --extensions=php,module,inc,install,test,profile,theme,css,info,txt,md --ignore=node_modules,bower_components,vendor ./web/modules/custom",
-            "./vendor/bin/phpcs --standard=Drupal --extensions=php,module,inc,install,test,profile,theme,css,info,txt,md --ignore=node_modules,bower_components,vendor ./web/themes/custom",
-            "./vendor/bin/phpcs --standard=DrupalPractice --extensions=php,module,inc,install,test,profile,theme,css,info,txt,md --ignore=node_modules,bower_components,vendor ./web/modules/custom",
-            "./vendor/bin/phpcs --standard=DrupalPractice --extensions=php,module,inc,install,test,profile,theme,css,info,txt,md --ignore=node_modules,bower_components,vendor ./web/themes/custom"
-        ],
-        "unit-test": "echo 'No unit test step defined.'",
-        "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-        "post-install-cmd": [
-            "@drupal-scaffold",
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
-        ],
-        "post-update-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
-        ],
-        "post-create-project-cmd": [
-            "@drupal-scaffold",
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
-        ]
     }
 }

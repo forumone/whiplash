@@ -1,9 +1,9 @@
-uuid: 8c42ae6b-72cf-4aca-aa68-03ad128c2842
+uuid: 039dca98-203b-4e18-90ef-54087b153ab1
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: puBstSLDz8mbaWU357zaqQDBGMGsJzG0j-TQNQkjg20
+  default_config_hash: kbEz1BmhQgoEpjLhYKzabUCJgONrM-iA8eb4-txCJXU
 id: '404'
 label: '404 page not found'
 tags:
