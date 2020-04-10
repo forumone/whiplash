@@ -45,5 +45,3 @@ field_rewrite_elements:
   s: S
 _core:
   default_config_hash: Rh1CfstWRRu2Zljw7o2rwQa32FFb6lM3_OcF7MjvoZ4
-display_extenders:
-  - metatag_display_extender
