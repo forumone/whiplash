@@ -55,6 +55,8 @@ install:
   - views_ui
   - pathauto
   - views
+  - password_policy
+  - datetime
 themes:
   - gesso
   - seven
