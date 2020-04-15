@@ -16,14 +16,18 @@ function whiplash_install_tasks(&$install_state) {
     'whiplash_set_user1_role' => [
       'display_name' => t('Set User 1 to administrator'),
       'type' => 'normal',
-    ]
+    ],
+    'whiplash_enable_modules' => [
+      'display_name' => t('Enable default modules'),
+      'type' => 'normal',
+    ],
   ];
   return $tasks;
 }
 
 /**
  * Callback function to set user 1 to adminstrator role.
- * 
+ *
  * @see whiplash_install_tasks()
  */
 function whiplash_set_user1_role() {
@@ -31,3 +35,14 @@ function whiplash_set_user1_role() {
   $user->roles[] = 'administrator';
   $user->save();
 }
+
+/**
+ * Callback function to enable default modules.
+ *
+ * @see whiplash_install_tasks()
+ */
+function whiplash_enable_modules() {
+  \Drupal::service('module_installer')->install(['config']);
+  \Drupal::service('module_installer')->install(['gesso_helper']);
+}
+
