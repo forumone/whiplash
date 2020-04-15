@@ -7,7 +7,7 @@ dependencies:
   module:
     - ckeditor
 _core:
-  default_config_hash: Og66wfrtgXXmASOOD0TQPCcFWqH0hXlSDavtJQKLGD4
+  default_config_hash: kk3lk7GZf0nWgm3D_9MHKih5Bxyyv0BWnmHTs5AHUbc
 format: basic_html
 editor: ckeditor
 settings:
@@ -38,8 +38,8 @@ settings:
         -
           name: Indentation
           items:
-            - Indent
             - Outdent
+            - Indent
         -
           name: Tools
           items:
