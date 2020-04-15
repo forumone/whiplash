@@ -21,6 +21,10 @@ function whiplash_install_tasks(&$install_state) {
       'display_name' => t('Enable default modules'),
       'type' => 'normal',
     ],
+    'whiplash_set_default_theme' => [
+      'display_name' => t('Set Gesso as default theme'),
+      'type' => 'normal',
+    ],
   ];
   return $tasks;
 }
@@ -44,5 +48,21 @@ function whiplash_set_user1_role() {
 function whiplash_enable_modules() {
   \Drupal::service('module_installer')->install(['config']);
   \Drupal::service('module_installer')->install(['gesso_helper']);
+  \Drupal::service('module_installer')->install(['components']);
+}
+
+/**
+ * Callback function to set Gesso as default theme.
+ *
+ * @see whiplash_install_tasks()
+ */
+function whiplash_set_default_theme() {
+  // Ensure theme is enabled already
+  \Drupal::service('theme_installer')->install(['gesso']);
+  // Set gesso as default
+  \Drupal::configFactory()
+    ->getEditable('system.theme')
+    ->set('default', 'gesso')
+    ->save();
 }
 
