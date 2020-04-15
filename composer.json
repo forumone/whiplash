@@ -5,6 +5,7 @@
     "license": "GPL-2.0-or-later",
     "require": {
         "ckeditor/indentblock": "^4.11.4",
+        "ckeditor/link": "^4.11.4",
         "drupal/address": ">=1.7",
         "drupal/admin_toolbar": ">=2.0",
         "drupal/allowed_formats": ">=1.1",
