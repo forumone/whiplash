@@ -6,7 +6,7 @@ dependencies:
     - field.storage.media.field_height
     - media.type.remote_video
 _core:
-  default_config_hash: HUJUevueXY_Q8cFkdL59iN4H6KnFGoS7irxTDFmi1rk
+  default_config_hash: 8iZ8g4AQf8DjFJDQljCnSPCTQCvHxy0ajQ96LasLom0
 id: media.remote_video.field_height
 field_name: field_height
 entity_type: media

@@ -1,14 +1,12 @@
-uuid: 1f47f166-0284-419a-adda-a900db082c8c
+uuid: 0830c92d-3b6c-4c45-87df-0c7a2cd0174d
 langcode: en
 status: true
 dependencies:
-  config:
-    - field.field.user.user.field_last_password_reset
-    - field.field.user.user.field_password_expiration
   module:
-    - datetime
     - path
     - user
+_core:
+  default_config_hash: RIxbE6uKdRL_T8W2Yt0nBRNZ3GiqDu52AyAd-7q1u-Q
 id: user.user.default
 targetEntityType: user
 bundle: user
@@ -17,19 +15,6 @@ content:
   account:
     weight: -10
     settings: {  }
-    third_party_settings: {  }
-    region: content
-  field_last_password_reset:
-    type: datetime_default
-    weight: 4
-    settings: {  }
-    third_party_settings: {  }
-    region: content
-  field_password_expiration:
-    type: boolean_checkbox
-    weight: 3
-    settings:
-      display_label: true
     third_party_settings: {  }
     region: content
   language:

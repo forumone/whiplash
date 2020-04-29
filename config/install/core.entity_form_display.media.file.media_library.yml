@@ -10,7 +10,7 @@ dependencies:
     - field.field.media.file.field_upload_name
     - media.type.file
 _core:
-  default_config_hash: wV_hlid3dC78QSByPap4GzYI3pUuinyxTNLpoCFaMEE
+  default_config_hash: RaLEMFNOOVL0KzQT20PXogZTrFmkcDo-8CUQcRnOYis
 id: media.file.media_library
 targetEntityType: media
 bundle: file

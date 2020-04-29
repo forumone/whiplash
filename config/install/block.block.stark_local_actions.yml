@@ -5,7 +5,7 @@ dependencies:
   theme:
     - stark
 _core:
-  default_config_hash: fjd9va_qI9GwLBqAx-nkksTcWIYRYJigf1q6_4bNfBg
+  default_config_hash: 7XZvkq3FLjY1azFxf5mLWN3xXoA3giObrkgLPa8YKWU
 id: stark_local_actions
 theme: stark
 region: content

@@ -7,7 +7,7 @@ dependencies:
   theme:
     - gesso
 _core:
-  default_config_hash: 1_S-DIVkQO-CS9uymFHqItWss2EIHcOAaXNuPqLT9ic
+  default_config_hash: uk6kI_Y8CqRDwqABfeppBNVa3hXoO2sKIG53FnkWSmg
 id: gesso_messages
 theme: gesso
 region: highlighted

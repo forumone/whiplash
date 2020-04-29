@@ -1,9 +1,9 @@
-uuid: 119cca36-d6ea-4344-9dee-807716729453
+uuid: 5fd7d577-75e3-44a7-94e1-1d825bd5edad
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: hfLhD3XpCBwjXzWDl6i1w8VnAqW9UgfSMTOnL8iXxbw
+  default_config_hash: qAsw2od1yKHjx80PBRiDK61MOtPeL5ukUVA68NZ9WLM
 id: user
 label: User
 tags:

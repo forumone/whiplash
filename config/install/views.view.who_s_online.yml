@@ -5,7 +5,7 @@ dependencies:
   module:
     - user
 _core:
-  default_config_hash: 8dn0eAnWwLmzxftLTvfVOktuyH_d4iBq1Z5MYfUsM1g
+  default_config_hash: mIxFXUOPzMJnM2b9g9G4EXzGgbBQyMqgHXEfDCqBjHQ
 id: who_s_online
 label: 'Who''s online block'
 module: user

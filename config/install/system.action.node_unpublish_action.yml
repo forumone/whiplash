@@ -1,11 +1,11 @@
-uuid: bb9af9e4-aadd-4cd2-8b02-cc8d3469eefe
+uuid: f8668e44-8d5b-465c-a55b-654413e4df12
 langcode: en
 status: true
 dependencies:
   module:
     - node
 _core:
-  default_config_hash: JcmIpSAmanF4gq6CA8XAVWgkBC5LO1qGEsScxwT1GOA
+  default_config_hash: 703K9nC9ZTCcbC6BcVawHKbbu1fOctvD_t5puS8ahJs
 id: node_unpublish_action
 label: 'Unpublish content'
 type: node

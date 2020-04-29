@@ -8,7 +8,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: gU4zz64ISSCXbM7ETloIKQpxJtzdrpzJSf1rWhKonwo
+  default_config_hash: cn4W1IcaSU1v_wIKLRxKdelQMP3C_0rzhb4AQWKmSx4
 id: node.basic_page.body
 field_name: body
 entity_type: node

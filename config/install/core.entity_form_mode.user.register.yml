@@ -1,11 +1,11 @@
-uuid: 3183612e-9839-431a-9041-bb19158b2e61
+uuid: 5c5ecba7-85b8-4971-91c5-2338ef6628a2
 langcode: en
 status: true
 dependencies:
   module:
     - user
 _core:
-  default_config_hash: XDzw1DBSAH584D0devSntyL-deSczg61TDjdK8d4X88
+  default_config_hash: RkWs2KwlgFp1TfSTIDJpRjdsbeAPEfg1KgTWHhSxBjQ
 id: user.register
 label: Register
 targetEntityType: user

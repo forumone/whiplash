@@ -1,9 +1,9 @@
-uuid: 447c7cb3-45a5-46ab-9774-169bfb380f46
+uuid: 2566a698-80fb-46f7-8eb8-558deca4e5d2
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: tPSTn4koNOv4KDD4sQLY3lADFonTE-uCXsk7AbwVHkk
+  default_config_hash: WMKRgc8bdtrD0YKtJhqJziwCX_butMTtVc09ulcAhsQ
 name: 'Plain text'
 format: plain_text
 weight: 10

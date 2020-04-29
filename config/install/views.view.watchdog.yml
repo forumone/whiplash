@@ -6,7 +6,7 @@ dependencies:
     - dblog
     - user
 _core:
-  default_config_hash: r4Amrl4k7GTYEeROKxu1AY-6R5R4sTMhct7y-Ji-2OM
+  default_config_hash: tq5cu4PriVbMKqwX-Ev_zzyabwv3H2qCBx4-Gpy6zgk
 id: watchdog
 label: Watchdog
 module: views

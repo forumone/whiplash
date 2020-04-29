@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: lW-rpuvtBVmxTAIZYvpipYzKO8PGK369P6uDMoXG6q4
+  default_config_hash: 9I8An6NHQs1nqE8rWTZFi0d5CXo6CCqJYyYzR-IX5sY
 name: 'Basic Page'
 type: page
 description: ''
