@@ -1,3 +1,6 @@
+dependencies:
+  module:
+    - metatag_views
 skip_cache: false
 sql_signature: false
 ui:
