@@ -1,0 +1,11 @@
+uuid: 9dc3f10b-e35a-46c1-8def-7bfa90641cf0
+langcode: en
+status: true
+dependencies: {  }
+name: Resource
+type: resource
+description: 'Resource for people visiting site'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

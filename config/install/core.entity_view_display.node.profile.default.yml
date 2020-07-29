@@ -1,0 +1,68 @@
+uuid: 78bfde22-7b4b-429a-b97b-3f92fd3f445c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.profile.field_description
+    - field.field.node.profile.field_email
+    - field.field.node.profile.field_phone
+    - field.field.node.profile.field_position
+    - field.field.node.profile.field_profile_image
+    - node.type.profile
+  module:
+    - media
+    - text
+    - user
+id: node.profile.default
+targetEntityType: node
+bundle: profile
+mode: default
+content:
+  field_description:
+    weight: 5
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_email:
+    weight: 3
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_phone:
+    weight: 4
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_position:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_profile_image:
+    type: media_thumbnail
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    region: content
+  show_title:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  links: true
+  search_api_excerpt: true

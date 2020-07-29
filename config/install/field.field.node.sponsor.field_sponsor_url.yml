@@ -1,0 +1,23 @@
+uuid: 88c32ace-3ba3-4c26-9a20-206bb4bc5acb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sponsor_url
+    - node.type.sponsor
+  module:
+    - link
+id: node.sponsor.field_sponsor_url
+field_name: field_sponsor_url
+entity_type: node
+bundle: sponsor
+label: URL
+description: 'link referring to sponsor/partner '
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

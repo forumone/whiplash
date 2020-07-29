@@ -7,7 +7,7 @@ dependencies:
   theme:
     - seven
 _core:
-  default_config_hash: EcPjBFQ4xohrFXIO3yz5sPvvtpVSmgRPCs73j1BzZ2Q
+  default_config_hash: u__h1uaRcd5_cwliKtrSKNPLCJgsEqdKf2VHyiX5zCw
 id: seven_messages
 theme: seven
 region: highlighted

@@ -14,7 +14,7 @@ dependencies:
     - image
     - user
 _core:
-  default_config_hash: 6m35YXDH-29gD_WthnrDc7ZKO8ydYCygB3EY2TSLeB4
+  default_config_hash: HZHwnmzgsvWbXqOo3DRqeDx3AI8smTGrSfDiXRcwrkw
 id: media.file.default
 targetEntityType: media
 bundle: file

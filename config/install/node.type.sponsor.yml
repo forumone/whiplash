@@ -1,0 +1,11 @@
+uuid: 6076bd73-90c3-48ac-b550-6da4437b1e35
+langcode: en
+status: true
+dependencies: {  }
+name: Sponsor
+type: sponsor
+description: 'Sponsor/partnership information'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

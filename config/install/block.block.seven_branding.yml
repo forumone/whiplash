@@ -7,7 +7,7 @@ dependencies:
   theme:
     - seven
 _core:
-  default_config_hash: nyRF65_-zSE-4nl2P26wPpB-fSQ3gqCHiw5zh8UQUFM
+  default_config_hash: 9KFLzU8fSB48BTu-lJVy6RkRyohM7TwYYNxyTnt_uZQ
 id: seven_branding
 theme: seven
 region: header

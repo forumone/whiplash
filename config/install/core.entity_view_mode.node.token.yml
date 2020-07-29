@@ -1,11 +1,11 @@
-uuid: 71edcdd8-4430-4c6a-b52e-df34ff33ab37
+uuid: fd3a4813-22f7-4afc-ae7e-ff83428dcca3
 langcode: en
 status: true
 dependencies:
   module:
     - node
 _core:
-  default_config_hash: 0izsg_GSltmyPRXIk3yxuwEgFBRGylgIs9bmCUWFnxw
+  default_config_hash: 6Jupsk_5RgOCyvX5DsHDuUkT7icJ5Dzhsp6B3s-PMM8
 id: node.token
 label: Token
 targetEntityType: node

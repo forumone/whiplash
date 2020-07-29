@@ -1,0 +1,62 @@
+uuid: 22918bf4-d127-40de-aac5-ed94dcaa7eb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_index
+    - field.field.node.profile.field_description
+    - field.field.node.profile.field_email
+    - field.field.node.profile.field_phone
+    - field.field.node.profile.field_position
+    - field.field.node.profile.field_profile_image
+    - node.type.profile
+  module:
+    - media
+    - user
+id: node.profile.search_index
+targetEntityType: node
+bundle: profile
+mode: search_index
+content:
+  field_email:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_phone:
+    weight: 4
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_position:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_profile_image:
+    type: media_thumbnail
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    region: content
+  show_title:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_description: true
+  links: true
+  search_api_excerpt: true

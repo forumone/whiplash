@@ -1,6 +1,5 @@
-dependencies:
-  module:
-    - metatag_views
+display_extenders:
+  - metatag_display_extender
 skip_cache: false
 sql_signature: false
 ui:
@@ -47,6 +46,4 @@ field_rewrite_elements:
   q: Q
   s: S
 _core:
-  default_config_hash: QvW2jqpViGqCuTDlnFRitxy7HUVqzcA6p-573WTKpKY
-display_extenders:
-  - metatag_display_extender
+  default_config_hash: RaRd9EIcwA4u3qCSRLL8EnCicbda1kV__ASmVbyehvQ

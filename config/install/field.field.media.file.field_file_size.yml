@@ -6,7 +6,7 @@ dependencies:
     - field.storage.media.field_file_size
     - media.type.file
 _core:
-  default_config_hash: e0bTfhAbGcJlo1VcwAlA8YgjiKAlxm5bzbjHagSgki8
+  default_config_hash: uh_jLzbWF021ru2N2Xq1U04H0Nyy5rTiiE_9qw5rKUU
 id: media.file.field_file_size
 field_name: field_file_size
 entity_type: media

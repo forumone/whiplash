@@ -1,0 +1,11 @@
+uuid: a31ad202-4197-4593-99bd-b183542a3994
+langcode: en
+status: true
+dependencies: {  }
+name: Event
+type: event
+description: 'Event posting'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

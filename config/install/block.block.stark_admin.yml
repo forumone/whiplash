@@ -9,7 +9,7 @@ dependencies:
   theme:
     - stark
 _core:
-  default_config_hash: OAolHaY02f74nOchyYgjhswBPCMyplY8vMR_TR3au-Q
+  default_config_hash: dsQ_pqTmwEZkOHZme_BNM9bzc0VNxXg3ZVeHYwX1Tk0
 id: stark_admin
 theme: stark
 region: sidebar_first

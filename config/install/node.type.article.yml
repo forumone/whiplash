@@ -1,0 +1,11 @@
+uuid: cd430ffe-7a15-4657-a7c8-bda12e848bc3
+langcode: en
+status: true
+dependencies: {  }
+name: Article
+type: article
+description: 'Article/Blog Post '
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

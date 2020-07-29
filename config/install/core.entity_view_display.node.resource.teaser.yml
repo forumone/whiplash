@@ -1,0 +1,41 @@
+uuid: 3a713200-c7a8-48fb-bdd0-d43803d58213
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.resource.field_resource_link
+    - field.field.node.resource.field_resource_media
+    - field.field.node.resource.field_resource_teaser
+    - field.field.node.resource.field_resource_topic
+    - node.type.resource
+  module:
+    - user
+id: node.resource.teaser
+targetEntityType: node
+bundle: resource
+mode: teaser
+content:
+  field_resource_teaser:
+    type: string
+    weight: 1
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  show_title:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_resource_link: true
+  field_resource_media: true
+  field_resource_topic: true
+  search_api_excerpt: true

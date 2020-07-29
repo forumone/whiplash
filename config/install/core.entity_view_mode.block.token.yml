@@ -1,11 +1,11 @@
-uuid: b369c5b6-103e-4560-a702-77f694fa4540
+uuid: 0555505b-2d85-48e6-80ca-70c0eaba476e
 langcode: en
 status: true
 dependencies:
   module:
     - block
 _core:
-  default_config_hash: wF6jHgjsEUfJXz51Oq3ecKxpGpfZBz87UeOw2kxskTY
+  default_config_hash: 6MAAhUe9Ap-c1WQNOCAjIkEwEQ5hl1Of9UwEQGXwAs0
 id: block.token
 label: Token
 targetEntityType: block

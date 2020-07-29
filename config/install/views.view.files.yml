@@ -6,7 +6,7 @@ dependencies:
     - file
     - user
 _core:
-  default_config_hash: igJYM3QA23F22fGpd5Vx4k5oUP0yvrB898u69T5Kw-Y
+  default_config_hash: NiUTnnr9bAJkrUGcQVOMVGbW2W4EFXCGorn063spBFw
 id: files
 label: Files
 module: file
