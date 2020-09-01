@@ -11,6 +11,7 @@ install:
   - block
   - block_content
   - breakpoint
+  - components
   - ckeditor
   - ckeditor_indentblock
   - ctools
