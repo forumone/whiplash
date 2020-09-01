@@ -56,6 +56,9 @@ install:
   - pathauto
   - views
   - password_policy
+  - password_policy_character_types
+  - password_policy_username
+  - password_policy_length
   - datetime
 themes:
   - gesso
