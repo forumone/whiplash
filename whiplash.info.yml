@@ -1,7 +1,7 @@
 name: Whiplash
 type: profile
 description: 'Forum One starting profile for new Drupal 8 builds.'
-core: 8.x
+core_version_requirement: ^8.8 || ^9
 install:
   - admin_toolbar
   - admin_toolbar_links_access_filter
