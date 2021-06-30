@@ -23,6 +23,7 @@ install:
   - field_ui
   - file
   - filter
+  - gesso_helper
   - google_tag
   - image
   - inline_form_errors
