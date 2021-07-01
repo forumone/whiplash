@@ -9,5 +9,3 @@ notification:
   emails:
     - admin@example.com
   threshold: all
-_core:
-  default_config_hash: CLwjpCxv5OC-k4Bam3Y-pbWrnsKsw6ChBKXO1xKso2A

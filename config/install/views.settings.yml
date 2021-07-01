@@ -46,7 +46,5 @@ field_rewrite_elements:
   ins: INS
   q: Q
   s: S
-_core:
-  default_config_hash: QvW2jqpViGqCuTDlnFRitxy7HUVqzcA6p-573WTKpKY
 display_extenders:
   - metatag_display_extender

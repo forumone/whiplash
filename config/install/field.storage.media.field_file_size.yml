@@ -1,11 +1,8 @@
-uuid: 104e234e-040c-470e-8b1b-8358eaaf7aa3
 langcode: en
 status: true
 dependencies:
   module:
     - media
-_core:
-  default_config_hash: D0QslPM55zzfe2LiMM3kqaKZw4RMRIdkPegUt9hvJxk
 id: media.field_file_size
 field_name: field_file_size
 entity_type: media

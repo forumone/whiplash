@@ -5,5 +5,3 @@ warning: false
 ignore_admin_path: false
 access_check: false
 route_normalizer_enabled: true
-_core:
-  default_config_hash: R8tRbmPDWZRjqw5U048AowikATFv3Er3fEcGogkesLA

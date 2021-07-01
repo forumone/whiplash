@@ -1,12 +1,9 @@
-uuid: e75dff8b-a36f-4b4d-8a23-53c30f09632f
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.media.field_upload_name
     - media.type.image
-_core:
-  default_config_hash: goecLpwJuz28Mrd5iDC7AJcsrtV_XGpNU1Z6X77SHpw
 id: media.image.field_upload_name
 field_name: field_upload_name
 entity_type: media

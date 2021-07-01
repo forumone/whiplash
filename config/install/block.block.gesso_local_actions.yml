@@ -1,11 +1,8 @@
-uuid: 169a1d3f-3675-4070-b9b2-c77d323ac030
 langcode: en
 status: true
 dependencies:
   theme:
     - gesso
-_core:
-  default_config_hash: fRuyDTtLpalXZEA50qBdfCh6lCLkLCFAVTFrEgxveW8
 id: gesso_local_actions
 theme: gesso
 region: content

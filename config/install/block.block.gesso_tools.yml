@@ -1,4 +1,3 @@
-uuid: 7e20e4ca-d1b4-49bc-9879-5f939bf72621
 langcode: en
 status: true
 dependencies:
@@ -8,8 +7,6 @@ dependencies:
     - system
   theme:
     - gesso
-_core:
-  default_config_hash: J-Iuy6r6ujrajlDGzBsVvP9rvYAAf4ZVbKRmpAr4RiA
 id: gesso_tools
 theme: gesso
 region: header

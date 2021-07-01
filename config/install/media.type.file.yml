@@ -1,9 +1,6 @@
-uuid: 150c975e-dd97-42a8-9eba-a594df834d6b
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: JoTr0N_IXMoxtih_RwKNS4XASsyByepiukqa1o-GR4w
 id: file
 label: File
 description: ''

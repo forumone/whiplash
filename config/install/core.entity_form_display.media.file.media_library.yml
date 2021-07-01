@@ -1,4 +1,3 @@
-uuid: fe6b5340-4f5e-408a-95c4-12417974b4f4
 langcode: en
 status: true
 dependencies:
@@ -9,8 +8,6 @@ dependencies:
     - field.field.media.file.field_mime_type
     - field.field.media.file.field_upload_name
     - media.type.file
-_core:
-  default_config_hash: RaLEMFNOOVL0KzQT20PXogZTrFmkcDo-8CUQcRnOYis
 id: media.file.media_library
 targetEntityType: media
 bundle: file

@@ -1,11 +1,8 @@
-uuid: 96a2c097-bc10-4d2a-93a6-a6bf3f1b0bd4
 langcode: en
 status: true
 dependencies:
   module:
     - media
-_core:
-  default_config_hash: Bl6Hn6PL_TAs7XKpG7JGxUXpcBMtbp2MAceQQqqsYyM
 id: media.field_height
 field_name: field_height
 entity_type: media

@@ -1,12 +1,9 @@
-uuid: b485059d-a3fa-4339-bf02-f4b1f228288d
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.media.field_height
     - media.type.image
-_core:
-  default_config_hash: qfgD61zMZG_PSqONiNXULJMPCA-65NQjm2B4pf4e9rY
 id: media.image.field_height
 field_name: field_height
 entity_type: media
