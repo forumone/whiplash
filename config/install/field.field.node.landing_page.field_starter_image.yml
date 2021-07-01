@@ -1,0 +1,28 @@
+uuid: 2c864bf2-70dc-400a-b8c7-58d279fa3d61
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_starter_image
+    - media.type.image
+    - node.type.landing_page
+id: node.landing_page.field_starter_image
+field_name: field_starter_image
+entity_type: node
+bundle: landing_page
+label: Image
+description: 'Image for landing page'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference

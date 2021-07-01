@@ -5,7 +5,7 @@ dependencies:
   theme:
     - gesso
 _core:
-  default_config_hash: w4Fhigr27pLM2uAWT7BX7VKIhvYyI6SVvc_tF3p1mkI
+  default_config_hash: tm0YThguKefY08NWHDFNsIqsHyKbQ4PxaTtGlYLgKrE
 id: gesso_page_title
 theme: gesso
 region: content

@@ -5,7 +5,7 @@ dependencies:
   module:
     - media
 _core:
-  default_config_hash: AzxtgzIBTcbgXBl8LI7n6BpBdIn3Jx8-MaBBRN8fAPc
+  default_config_hash: sM6Kek0XJN12Y5sTfrUmV5HVGRoJa8wyoyYQJKNiYI8
 id: media_save_action
 label: 'Save media'
 type: media

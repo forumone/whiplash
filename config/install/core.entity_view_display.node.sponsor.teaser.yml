@@ -1,0 +1,32 @@
+uuid: dd1337d4-5b88-4b02-8473-77a96d9a0779
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.sponsor.field_sponsor_description
+    - field.field.node.sponsor.field_sponsor_logo
+    - field.field.node.sponsor.field_sponsor_url
+    - node.type.sponsor
+  module:
+    - user
+id: node.sponsor.teaser
+targetEntityType: node
+bundle: sponsor
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  show_title:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_sponsor_description: true
+  field_sponsor_logo: true
+  field_sponsor_url: true
+  search_api_excerpt: true

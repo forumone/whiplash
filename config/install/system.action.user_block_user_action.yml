@@ -1,11 +1,11 @@
-uuid: abe46bc1-ac27-4321-8863-6152fae3a5a6
+uuid: 55803997-3d60-453e-92c0-4d0db80a7b20
 langcode: en
 status: true
 dependencies:
   module:
     - user
 _core:
-  default_config_hash: AgmWJKtEZj3dfGSJXN6DnuGEJs2K6bwsOndKGqTPkBM
+  default_config_hash: lOIIFb8vU6x-OPXUw8t_dWvARX9oXJFIwZxVCuKc_bk
 id: user_block_user_action
 label: 'Block the selected user(s)'
 type: user

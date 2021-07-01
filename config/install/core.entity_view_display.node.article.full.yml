@@ -1,0 +1,92 @@
+uuid: cb529fd5-3c7b-4aad-bf79-8dec681049c1
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.article.field_article_date
+    - field.field.node.article.field_article_image
+    - field.field.node.article.field_article_teaser
+    - field.field.node.article.field_author_text
+    - field.field.node.article.field_authorentityref
+    - field.field.node.article.field_contact
+    - field.field.node.article.field_content
+    - field.field.node.article.field_subtitle
+    - node.type.article
+  module:
+    - datetime
+    - entity_reference_revisions
+    - user
+id: node.article.full
+targetEntityType: node
+bundle: article
+mode: full
+content:
+  field_article_date:
+    weight: 3
+    label: hidden
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_article_image:
+    type: entity_reference_entity_view
+    weight: 5
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_author_text:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_authorentityref:
+    weight: 1
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_contact:
+    weight: 6
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_content:
+    type: entity_reference_revisions_entity_view
+    weight: 7
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_subtitle:
+    weight: 4
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  show_title:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_article_teaser: true
+  links: true
+  search_api_excerpt: true

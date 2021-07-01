@@ -8,7 +8,7 @@ dependencies:
     - node
     - user
 _core:
-  default_config_hash: 69PuyzRIpYDCJsc_1gmBlNy3iuiSCQPhqULqu9wsDiM
+  default_config_hash: b5hkhjQmgNmRnMGvpx1UCu46WVj4CtYfwj4BdBy3K64
 id: archive
 label: Archive
 module: node

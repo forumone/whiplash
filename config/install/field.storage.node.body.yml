@@ -1,4 +1,4 @@
-uuid: dbcf822c-4ad0-4a80-a478-b9afeacdc27c
+uuid: 65a64c42-41b4-4adb-b75c-8b974cfce4d3
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - node
     - text
 _core:
-  default_config_hash: z0oXY3nriFNYPevtf_Q2v2_i9T43Rda0iwJkIOY5O2E
+  default_config_hash: 7hvZZnkGtQHctIpf82A4On-mE68YKmAnsevICHh1-0Q
 id: node.body
 field_name: body
 entity_type: node

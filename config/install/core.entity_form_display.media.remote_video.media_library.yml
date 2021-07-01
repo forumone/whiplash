@@ -11,7 +11,7 @@ dependencies:
     - field.field.media.remote_video.field_width
     - media.type.remote_video
 _core:
-  default_config_hash: 5En9M_DFpY0hyI5ceR6M9pU63Ztcs33RfySNFbkjAj0
+  default_config_hash: D392fmssaCQyL_Q5KUhoDDL-CkzajXbR65f1XK8Y5HU
 id: media.remote_video.media_library
 targetEntityType: media
 bundle: remote_video

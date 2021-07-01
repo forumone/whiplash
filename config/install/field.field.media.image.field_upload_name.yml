@@ -6,7 +6,7 @@ dependencies:
     - field.storage.media.field_upload_name
     - media.type.image
 _core:
-  default_config_hash: goecLpwJuz28Mrd5iDC7AJcsrtV_XGpNU1Z6X77SHpw
+  default_config_hash: Bw7V0a3KAHnEgggW70y2sT5SB8p6gh1fnCwo_5V8-ag
 id: media.image.field_upload_name
 field_name: field_upload_name
 entity_type: media

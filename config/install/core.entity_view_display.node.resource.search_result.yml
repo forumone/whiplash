@@ -1,0 +1,50 @@
+uuid: e4c14369-c5c1-4a2f-b6c7-3c69ec517eae
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_result
+    - field.field.node.resource.field_resource_link
+    - field.field.node.resource.field_resource_media
+    - field.field.node.resource.field_resource_teaser
+    - field.field.node.resource.field_resource_topic
+    - node.type.resource
+  module:
+    - link
+    - user
+id: node.resource.search_result
+targetEntityType: node
+bundle: resource
+mode: search_result
+content:
+  field_resource_link:
+    weight: 3
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_resource_media:
+    type: entity_reference_entity_view
+    weight: 2
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  show_title:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_resource_teaser: true
+  field_resource_topic: true
+  links: true
+  search_api_excerpt: true

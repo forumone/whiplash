@@ -7,4 +7,4 @@ definition:
       - 'http://cgit.drupalcode.org/libraries_registry/plain/registry/8'
 global_locators: {  }
 _core:
-  default_config_hash: oXyAmVUyrBnUzTJ5CaPOyA8CDbHivPoZ61YOm1dIRls
+  default_config_hash: f999XOu2ztDpthvEfteLgVkr-9hmXBhob6pKef5pCNc

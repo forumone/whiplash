@@ -1,0 +1,21 @@
+uuid: 33bdf816-7f5f-4313-bc38-3f67b2c49497
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resource_topic
+    - node.type.resource
+id: node.resource.field_resource_topic
+field_name: field_resource_topic
+entity_type: node
+bundle: resource
+label: 'Resource topic'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

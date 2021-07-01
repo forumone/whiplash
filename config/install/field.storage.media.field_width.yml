@@ -5,7 +5,7 @@ dependencies:
   module:
     - media
 _core:
-  default_config_hash: Rul3ChIrzX2aAsG9h9DhXuyQWpv_of2WCWMa0Mgdhho
+  default_config_hash: qQ2gf8CwG7eGNoQveivHR4AN3vgch517zGn5L8shHt0
 id: media.field_width
 field_name: field_width
 entity_type: media

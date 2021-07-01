@@ -1,0 +1,50 @@
+uuid: bcb41979-6aef-4b82-af9d-0e98e6e26d2c
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.profile.field_description
+    - field.field.node.profile.field_email
+    - field.field.node.profile.field_phone
+    - field.field.node.profile.field_position
+    - field.field.node.profile.field_profile_image
+    - node.type.profile
+  module:
+    - user
+id: node.profile.teaser
+targetEntityType: node
+bundle: profile
+mode: teaser
+content:
+  field_position:
+    type: string
+    weight: 3
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_profile_image:
+    type: entity_reference_label
+    weight: 1
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  show_title:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_description: true
+  field_email: true
+  field_phone: true
+  search_api_excerpt: true

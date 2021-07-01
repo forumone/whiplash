@@ -1,0 +1,30 @@
+uuid: 949b2a62-63a1-4ec4-9405-36db71c0b636
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_profile_image
+    - media.type.file
+    - media.type.image
+    - node.type.profile
+id: node.profile.field_profile_image
+field_name: field_profile_image
+entity_type: node
+bundle: profile
+label: 'Profile Image'
+description: 'Image of User Profile/Staff/Person'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      file: file
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: file
+field_type: entity_reference

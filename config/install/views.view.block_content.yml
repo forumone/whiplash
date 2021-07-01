@@ -6,7 +6,7 @@ dependencies:
     - block_content
     - user
 _core:
-  default_config_hash: uD1hixu20JdpIowlew9n5JE8fz35UVInslP7GZ33jzY
+  default_config_hash: 9E9QLk1xBTq9yprITWZC8VLYI2ToYhXhBnss0jCfBL8
 id: block_content
 label: 'Custom block library'
 module: views

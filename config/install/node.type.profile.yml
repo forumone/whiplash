@@ -1,0 +1,11 @@
+uuid: cbb15d04-df01-4411-80a8-5cf2583eb9d3
+langcode: en
+status: true
+dependencies: {  }
+name: Profile
+type: profile
+description: 'User Profile/Staff/Person'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

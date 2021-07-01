@@ -1,0 +1,65 @@
+uuid: 45e4d2e6-9a40-4659-adc9-e5db180e77f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_result
+    - field.field.node.event.field_event_date
+    - field.field.node.event.field_event_link
+    - field.field.node.event.field_event_location
+    - field.field.node.event.field_event_summary
+    - node.type.event
+  module:
+    - datetime_range
+    - link
+    - user
+id: node.event.search_result
+targetEntityType: node
+bundle: event
+mode: search_result
+content:
+  field_event_date:
+    weight: 2
+    label: above
+    settings:
+      separator: '-'
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_event_link:
+    weight: 4
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_event_location:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_event_summary:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  show_title:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  links: true
+  search_api_excerpt: true

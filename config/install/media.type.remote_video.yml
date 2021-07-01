@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: Epbpclz-E9UrcEViUfRsSWnsUjnj66nzMFHFV7rnNlg
+  default_config_hash: jbszEUT3JLoxA3dUHK_LnYKlRoA4pKXLiSs300w-q5w
 id: remote_video
 label: 'Remote Video'
 description: ''

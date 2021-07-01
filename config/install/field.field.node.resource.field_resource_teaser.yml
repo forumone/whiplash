@@ -1,0 +1,19 @@
+uuid: 717475d1-c374-4978-887d-5be1bd71ebd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resource_teaser
+    - node.type.resource
+id: node.resource.field_resource_teaser
+field_name: field_resource_teaser
+entity_type: node
+bundle: resource
+label: Teaser
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

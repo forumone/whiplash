@@ -1,0 +1,29 @@
+uuid: f6adba93-87d6-4a37-bc6b-90e7a56e91da
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content
+    - node.type.article
+  module:
+    - entity_reference_revisions
+id: node.article.field_content
+field_name: field_content
+entity_type: node
+bundle: article
+label: Content
+description: 'Body/Content of article/blog post'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      article_paragraphs:
+        weight: -5
+        enabled: false
+field_type: entity_reference_revisions

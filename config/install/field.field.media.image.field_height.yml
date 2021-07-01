@@ -6,7 +6,7 @@ dependencies:
     - field.storage.media.field_height
     - media.type.image
 _core:
-  default_config_hash: qfgD61zMZG_PSqONiNXULJMPCA-65NQjm2B4pf4e9rY
+  default_config_hash: '-xDyPJXo6XUgmyfaDd9e7xjXUvpI_IBG9nGqI23TUHI'
 id: media.image.field_height
 field_name: field_height
 entity_type: media

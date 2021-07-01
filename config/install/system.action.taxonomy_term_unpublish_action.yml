@@ -1,11 +1,11 @@
-uuid: eb9d864a-2897-4765-8849-3775b3789d58
+uuid: ab96ee40-e7a2-4ea2-bc64-c93643014428
 langcode: en
 status: true
 dependencies:
   module:
     - taxonomy
 _core:
-  default_config_hash: aa3NsL8ZCT5Uq3Fhe2xwZZ72FvDSWbOE5vKqd_w74wg
+  default_config_hash: UW06r7lm4rMhhpR6Nq_bl3vuuRdAGljnYbcUcN62tQM
 id: taxonomy_term_unpublish_action
 label: 'Unpublish taxonomy term'
 type: taxonomy_term

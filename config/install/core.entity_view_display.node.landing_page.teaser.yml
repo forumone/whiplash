@@ -1,0 +1,35 @@
+uuid: 8f58c60e-a578-4124-bc01-2bdad73dfef7
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.landing_page.field_page_content
+    - field.field.node.landing_page.field_starter_image
+    - field.field.node.landing_page.field_teaser
+    - node.type.landing_page
+  module:
+    - user
+id: node.landing_page.teaser
+targetEntityType: node
+bundle: landing_page
+mode: teaser
+content:
+  field_teaser:
+    type: string
+    weight: 1
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  show_title:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_page_content: true
+  field_starter_image: true
+  links: true
+  search_api_excerpt: true
