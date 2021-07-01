@@ -47,8 +47,6 @@ function whiplash_set_user1_role() {
  */
 function whiplash_enable_modules() {
   \Drupal::service('module_installer')->install(['config']);
-  \Drupal::service('module_installer')->install(['gesso_helper']);
-  //\Drupal::service('module_installer')->install(['components']);
 }
 
 /**
