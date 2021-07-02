@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+name: Event
+type: event
+description: 'An <em>Event</em> represents a single event and any information regarding it.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
