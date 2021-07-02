@@ -15,6 +15,8 @@ install:
   - ckeditor
   - ckeditor_indentblock
   - ctools
+  - datetime
+  - datetime_range
   - dblog
   - dynamic_page_cache
   - editor
@@ -41,6 +43,7 @@ install:
   - page_cache
   - path
   - path_alias
+  - password_policy
   - redirect
   - save_edit
   - search_api
@@ -57,8 +60,6 @@ install:
   - views_ui
   - pathauto
   - views
-  - password_policy
-  - datetime
 themes:
   - gesso
   - seven
