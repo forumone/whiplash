@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'User Profile / Staff / Person'
+type: profile
+description: 'Allows creating the representation of a <i>User Profile</i>. This type of content is typically used within Staff or Leadership sections of a site.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
