@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link
+    - node.type.sponsor
+  module:
+    - link
+id: node.sponsor.field_link
+field_name: field_link
+entity_type: node
+bundle: sponsor
+label: URL
+description: 'The URL to the sponsor/partner page or website.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link
