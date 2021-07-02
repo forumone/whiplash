@@ -1,4 +1,3 @@
-uuid: 086927c9-0e3d-4939-94c5-8872dbc24f6d
 langcode: en
 status: true
 dependencies:
@@ -8,8 +7,6 @@ dependencies:
     - system
   theme:
     - stark
-_core:
-  default_config_hash: NrKk7RD-PMeAomrP0KgByO1biyIOH0hNhMhmuaSCRRo
 id: stark_tools
 theme: stark
 region: sidebar_first

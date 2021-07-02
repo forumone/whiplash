@@ -1,12 +1,9 @@
-uuid: 8dc934b7-01ea-4dda-9407-1dd9e2e0bff0
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.media.field_mime_type
     - media.type.file
-_core:
-  default_config_hash: xt8XOKOiIXcJhATenhs08-CMAn3I4B4Od_ovIaOUh5w
 id: media.file.field_mime_type
 field_name: field_mime_type
 entity_type: media

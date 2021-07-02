@@ -19,5 +19,3 @@ _default_container:
   include_environment: false
   environment_id: ''
   environment_token: ''
-_core:
-  default_config_hash: 1EIsiAMhZd89m-TNQ9Ol4cygO-0U6L0svoKIkbKTv-o

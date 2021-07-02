@@ -1,11 +1,8 @@
-uuid: 0e73f07d-dc2f-47a9-8889-d1418e5db0a9
 langcode: en
 status: true
 dependencies:
   module:
     - media
-_core:
-  default_config_hash: tALIhhx9ZQvDJEP081mZNlkvXuAcJDMa-2J-0btyuRE
 name: 'Basic HTML'
 format: basic_html
 weight: 0

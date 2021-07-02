@@ -1,4 +1,3 @@
-uuid: 7a179409-5d8c-458e-a3b7-ae05951998c1
 langcode: en
 status: false
 dependencies:
@@ -6,8 +5,6 @@ dependencies:
     - system
   theme:
     - seven
-_core:
-  default_config_hash: nyRF65_-zSE-4nl2P26wPpB-fSQ3gqCHiw5zh8UQUFM
 id: seven_branding
 theme: seven
 region: header

@@ -1,9 +1,6 @@
-uuid: b4149429-1568-4125-9b08-ebbb0c2d81c1
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: 3ws5o4vv_ydCCtqYg506K8KO0wh3ASKiDQ4WaAo5IFY
 id: html_datetime
 label: 'HTML Datetime'
 locked: true

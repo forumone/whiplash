@@ -1,12 +1,9 @@
-uuid: b41aafaf-0913-46b2-8016-fb1ae164500c
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.media.field_file_size
     - media.type.file
-_core:
-  default_config_hash: e0bTfhAbGcJlo1VcwAlA8YgjiKAlxm5bzbjHagSgki8
 id: media.file.field_file_size
 field_name: field_file_size
 entity_type: media

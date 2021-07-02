@@ -1,9 +1,6 @@
-uuid: d42f998d-d01c-46d8-9fb0-cb95147582d3
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: xGVIG-RI4ZqxVQsvTj9cYngIyNw9WvoP41sb1MxI2X4
 name: 'Basic Page'
 type: basic_page
 description: ''
