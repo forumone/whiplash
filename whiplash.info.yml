@@ -11,10 +11,12 @@ install:
   - block
   - block_content
   - breakpoint
-  - components
   - ckeditor
   - ckeditor_indentblock
+  - components
   - ctools
+  - datetime
+  - datetime_range
   - dblog
   - dynamic_page_cache
   - editor
@@ -29,18 +31,20 @@ install:
   - inline_form_errors
   - libraries
   - link
+  - media
+  - media_library
   - metatag
   - metatag_dc
   - metatag_open_graph
   - metatag_twitter_cards
   - metatag_views
-  - media
-  - media_library
   - node
   - options
   - page_cache
+  - password_policy
   - path
   - path_alias
+  - pathauto
   - redirect
   - save_edit
   - search_api
@@ -54,11 +58,8 @@ install:
   - twig_tweak
   - update
   - user
-  - views_ui
-  - pathauto
   - views
-  - password_policy
-  - datetime
+  - views_ui
 themes:
   - gesso
   - seven
