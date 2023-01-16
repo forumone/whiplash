@@ -43,6 +43,7 @@ install:
   - path_alias
   - redirect
   - save_edit
+  - search
   - search_api
   - search_api_db
   - system
