@@ -1,9 +1,6 @@
-uuid: c71051d9-9641-4f48-a300-2c629ba4c916
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: mIjpNClPYuH5bdpFSvLFFBnuTcSQgDmbyztt-p7tWs8
 id: '404'
 label: '404 page not found'
 tags:

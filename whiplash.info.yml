@@ -43,6 +43,7 @@ install:
   - path_alias
   - redirect
   - save_edit
+  - search
   - search_api
   - search_api_db
   - system
@@ -58,6 +59,9 @@ install:
   - pathauto
   - views
   - password_policy
+  - password_policy_character_types
+  - password_policy_username
+  - password_policy_length
   - datetime
 themes:
   - gesso

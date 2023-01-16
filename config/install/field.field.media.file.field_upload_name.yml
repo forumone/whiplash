@@ -1,12 +1,9 @@
-uuid: 4c7ebdab-3fd2-45f7-8682-8aeff38a45a6
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.media.field_upload_name
     - media.type.file
-_core:
-  default_config_hash: 7Ro3HeY6VMmqlYMtdCu3bRA6rQunm0_6UU2bJRIlMaU
 id: media.file.field_upload_name
 field_name: field_upload_name
 entity_type: media

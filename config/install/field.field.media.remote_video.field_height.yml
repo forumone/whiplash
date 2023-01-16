@@ -1,12 +1,9 @@
-uuid: e9790a4a-1ca2-4b0a-a43b-5014bb09c490
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.media.field_height
     - media.type.remote_video
-_core:
-  default_config_hash: 8iZ8g4AQf8DjFJDQljCnSPCTQCvHxy0ajQ96LasLom0
 id: media.remote_video.field_height
 field_name: field_height
 entity_type: media
