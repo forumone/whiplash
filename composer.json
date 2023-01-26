@@ -1,7 +1,7 @@
 {
     "name": "forumone/whiplash",
     "type": "drupal-profile",
-    "description": "Forum One default installation for starting Drupal 8 builds.",
+    "description": "Forum One default installation for starting Drupal builds.",
     "license": "GPL-2.0-or-later",
     "require": {
         "ckeditor/indentblock": "^4.11.4",

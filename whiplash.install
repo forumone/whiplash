@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @file
+ * Install, update, and unisntall functions for the Whiplash installation profile.
+ */
+
 use Drupal\user\Entity\User;
 
 /**
@@ -63,4 +68,3 @@ function whiplash_set_default_theme() {
     ->set('default', 'gesso')
     ->save();
 }
-
