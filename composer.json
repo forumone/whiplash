@@ -44,11 +44,6 @@
     },
     "require-dev": {
         "webflo/drupal-core-require-dev":"^8.7.0"
-    },
-    "extra": {
-      "branch-alias": {
-          "dev-main": "1.x-dev"
-      }
     }
 }
 
