@@ -1,0 +1,49 @@
+definitions:
+  # Configure some default step values.
+  step-defaults: &step-defaults
+    timeout_in_minutes: 15
+    retry:
+      manual:
+        permit_on_passed: true
+  plugins:
+    ecr: &ecr
+      ecr#v2.0.0:
+        login: true
+        no-include-email: true
+
+  # Specify common agent queue parameters.
+  queues:
+    # Docker-based tasks should run in the Docker queue.
+    docker-agents: &docker-agents
+      agents:
+        queue: "docker-builders"
+env:
+  # If you do not declare buildkit:1 then arguments using for --target
+  # do not work correctly and they will build every steps.
+  DOCKER_BUILDKIT: 1
+  BUILDKIT_PROGRESS: plain
+
+  # Identify the address for the shared Buildkite ECR repository.
+  IMAGE_REPOSITORY: "165761832703.dkr.ecr.us-east-1.amazonaws.com"
+
+  # Define a common namespace for images to be published within the shared ECR repo.
+  ECR_NAMESPACE: "${IMAGE_REPOSITORY}/buildkite"
+
+
+  # Define service directory were the Dockerfile is used
+  DOCKERFILE_LOCATION: "./"
+
+  ARTIFACT_LOCATION: "./artifacts"
+steps:
+  - label: ":hammer: :docker: Building Docker Test Image"
+    key: "building-image-test"
+    <<: *step-defaults
+    <<: *docker-agents
+    branches:
+      - "!1.x"
+      - "!main"
+    retry:
+      manual:
+        permit_on_passed: true
+    command:
+      - "docker build --target artifact -t ${ECR_NAMESPACE}:${BUILDKITE_PIPELINE_SLUG}-${BUILDKITE_COMMIT} ${DOCKERFILE_LOCATION}"
