@@ -30,7 +30,7 @@ env:
   ECR_NAMESPACE: "${IMAGE_REPOSITORY}/buildkite"
 
 
-  # Define service directory where the Dockerfile is used
+  # Define service directory where the Dockerfile is used.
   DOCKERFILE_LOCATION: "./"
 
   ARTIFACT_LOCATION: "./artifacts"
