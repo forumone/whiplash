@@ -46,6 +46,6 @@ steps:
       - "!main"
     commands:
       - 'echo "--- :docker: Build Docker Image"'
-      - "docker build --target base -t ${ECR_NAMESPACE}:${BUILDKITE_PIPELINE_SLUG}-${BUILDKITE_COMMIT} ${DOCKERFILE_LOCATION}-base"
+      - "docker build --target base -t ${ECR_NAMESPACE}:${BUILDKITE_PIPELINE_SLUG}-${BUILDKITE_COMMIT}-base ${DOCKERFILE_LOCATION}"
       - 'echo "--- :docker: Run PHP_CodeSniffer Linting"'
       - "docker run --rm ${ECR_NAMESPACE}:${BUILDKITE_PIPELINE_SLUG}-${BUILDKITE_COMMIT}-base composer phpcs"
