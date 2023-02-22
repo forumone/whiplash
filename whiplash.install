@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Install, update, and unisntall functions for the Whiplash installation profile.
+ * Install, update, and uninstall functions for the Whiplash profile.
  */
 
 use Drupal\user\Entity\User;
@@ -60,9 +60,9 @@ function whiplash_enable_modules() {
  * @see whiplash_install_tasks()
  */
 function whiplash_set_default_theme() {
-  // Ensure theme is enabled already
+  // Ensure theme is enabled already.
   \Drupal::service('theme_installer')->install(['gesso']);
-  // Set gesso as default
+  // Set gesso as default.
   \Drupal::configFactory()
     ->getEditable('system.theme')
     ->set('default', 'gesso')
