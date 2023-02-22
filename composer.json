@@ -3,6 +3,57 @@
     "type": "drupal-profile",
     "description": "Forum One default installation for starting Drupal builds.",
     "license": "GPL-2.0-or-later",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor/indentblock",
+                "version": "4.11.4",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://download.ckeditor.com/indentblock/releases/indentblock_4.11.4.zip",
+                    "type": "zip"
+                },
+                "require": {
+                    "composer/installers": "^1.2.0"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor/fakeobjects",
+                "version": "4.11.4",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.11.4.zip",
+                    "type": "zip"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "ckeditor/link",
+                "version": "4.11.4",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://download.ckeditor.com/link/releases/link_4.11.4.zip",
+                    "type": "zip"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                }
+            }
+        }
+    ],
     "require": {
         "ckeditor/indentblock": "^4.11.4",
         "ckeditor/link": "^4.11.4",
@@ -43,6 +94,51 @@
         "drupal/username_enumeration_prevention": ">=1.0"
     },
     "require-dev": {
-        "webflo/drupal-core-require-dev":"^8.7.0"
+        "php": "^8.0",
+        "drupal/core-dev": "^9",
+        "squizlabs/php_codesniffer": "^2.7 || ^3"
+    },
+    "config": {
+        "sort-packages": true,
+        "platform": {
+            "ext-gd": "1.0.0",
+            "ext-opcache": "1.0.0",
+            "ext-pdo": "1.0.0"
+        },
+        "allow-plugins": {
+            "composer/installers": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "rvtraveller/qs-composer-installer": true
+        }
+    },
+    "scripts": {
+      "phpcs": [
+        "./vendor/bin/phpcs"
+      ]
+    },
+    "extra": {
+        "installer-paths": {
+            "web/core": [
+                "type:drupal-core"
+            ],
+            "web/libraries/{$name}": [
+                "type:drupal-library",
+                "type:bower-asset",
+                "harvesthq/chosen",
+                "type:npm-asset"
+            ],
+            "web/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "web/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "web/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "drush/Commands/contrib/{$name}": [
+                "type:drupal-drush"
+            ]
+        }
     }
 }
