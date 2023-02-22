@@ -19,7 +19,7 @@ definitions:
         queue: "docker-builders"
 env:
   # If you do not declare buildkit:1 then arguments using for --target
-  # do not work correctly and they will build every steps.
+  # do not work correctly and they will build every step.
   DOCKER_BUILDKIT: 1
   BUILDKIT_PROGRESS: plain
 
@@ -30,7 +30,7 @@ env:
   ECR_NAMESPACE: "${IMAGE_REPOSITORY}/buildkite"
 
 
-  # Define service directory were the Dockerfile is used
+  # Define service directory where the Dockerfile is used
   DOCKERFILE_LOCATION: "./"
 
   ARTIFACT_LOCATION: "./artifacts"
