@@ -49,3 +49,12 @@ steps:
       - "docker build --target base -t ${ECR_NAMESPACE}:${BUILDKITE_PIPELINE_SLUG}-${BUILDKITE_COMMIT}-base ${DOCKERFILE_LOCATION}"
       - 'echo "--- :docker: Run PHP_CodeSniffer Linting"'
       - "docker run --rm ${ECR_NAMESPACE}:${BUILDKITE_PIPELINE_SLUG}-${BUILDKITE_COMMIT}-base composer phpcs"
+
+  - trigger: whiplash-demo
+    label: "Deploy Demo"
+    branches:
+      - 1.x
+      - main
+    build:
+      message: "${BUILDKITE_MESSAGE}"
+      branch: "${BUILDKITE_BRANCH}"
