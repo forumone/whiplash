@@ -35,15 +35,17 @@ env:
 
   ARTIFACT_LOCATION: "./artifacts"
 steps:
-  - label: ":hammer: :docker: Building Docker Test Image"
-    key: "building-image-test"
+  - label: ":heavy_check_mark: :php: Lint PHPCS"
+    key: "lint_phpcs"
+    soft_fail:
+      - exit_status: 1
     <<: *step-defaults
     <<: *docker-agents
     branches:
       - "!1.x"
       - "!main"
-    retry:
-      manual:
-        permit_on_passed: true
-    command:
+    commands:
+      - 'echo "--- :docker: Build Docker Image"'
       - "docker build --target artifact -t ${ECR_NAMESPACE}:${BUILDKITE_PIPELINE_SLUG}-${BUILDKITE_COMMIT} ${DOCKERFILE_LOCATION}"
+      - 'echo "--- :docker: Run PHP_CodeSniffer Linting"'
+      - "docker run --rm ${ECR_NAMESPACE}:${BUILDKITE_PIPELINE_SLUG}-${BUILDKITE_COMMIT} composer phpcs"
