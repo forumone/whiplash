@@ -1,6 +1,4 @@
 .idea
 vendor
 composer.lock
-libraries
-modules
-core
+web

@@ -95,7 +95,8 @@
     },
     "require-dev": {
         "php": "^8.0",
-        "drupal/core-dev": "^9"
+        "drupal/core-dev": "^9",
+        "squizlabs/php_codesniffer": "^2.7 || ^3"
     },
     "config": {
         "sort-packages": true,
@@ -108,6 +109,36 @@
             "composer/installers": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "rvtraveller/qs-composer-installer": true
+        }
+    },
+    "scripts": {
+      "phpcs": [
+        "./vendor/bin/phpcs"
+      ]
+    },
+    "extra": {
+        "installer-paths": {
+            "web/core": [
+                "type:drupal-core"
+            ],
+            "web/libraries/{$name}": [
+                "type:drupal-library",
+                "type:bower-asset",
+                "harvesthq/chosen",
+                "type:npm-asset"
+            ],
+            "web/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "web/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "web/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "drush/Commands/contrib/{$name}": [
+                "type:drupal-drush"
+            ]
         }
     }
 }
