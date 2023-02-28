@@ -13,38 +13,38 @@ Whiplash contains an installation profile that allows developers to quickly star
 ### Modules
 Whiplash comes with the following common modules installed via Composer dependencies. For more information on the modules please follow the links provided below.
 
-[Address](https://www.drupal.org/project/address)
-[Admin Toolbar](https://www.drupal.org/project/admin_toolbar)
-[Allowed Formats](https://www.drupal.org/project/allowed_formats)
-[CKEditor Anchor Link](https://www.drupal.org/project/anchor_link)
-[CKEditor IndentBlock](https://www.drupal.org/project/ckeditor_indentblock)
-[Components](https://www.drupal.org/project/components)
-[Configuration Split](https://www.drupal.org/project/config_split)
-[Config Direct Save](https://www.drupal.org/project/config_direct_save)
-[Contact Storage](https://www.drupal.org/project/contact_storage)
-[Devel](https://www.drupal.org/project/devel)
-[Diff](https://www.drupal.org/project/diff)
-[Entityqueue](https://www.drupal.org/project/entityqueue)
-[Facets](https://www.drupal.org/project/facets)
-[Field Group](https://www.drupal.org/project/field_group)
-[Focal Point](https://www.drupal.org/project/focal_point)
-[GoogleTagManager](https://www.drupal.org/project/google_tag)
-[Inline Entity Form](https://www.drupal.org/project/inline_entity_form)
-[Libraries API](https://www.drupal.org/project/libraries)
-[Login History](https://www.drupal.org/project/login_history)
-[MaxLength](https://www.drupal.org/project/maxlength)
-[Metatag](https://www.drupal.org/project/metatag)
-[Paragraphs](https://www.drupal.org/project/paragraphs)
-[Password Policy](https://www.drupal.org/project/password_policy)
-[Pathauto](https://www.drupal.org/project/pathauto)
-[Rabbit Hole](https://www.drupal.org/project/rabbit_hole)
-[Redirect](https://www.drupal.org/project/redirect)
-[Save & Edit](https://www.drupal.org/project/save_edit)
-[Search API](https://www.drupal.org/project/search_api)
-[Simple XML sitemap](https://www.drupal.org/project/simple_sitemap)
-[Twig Field Value](https://www.drupal.org/project/twig_field_value)
-[Twig Tweak](https://www.drupal.org/project/twig_tweak)
-[Username Enumeration Prevention](https://www.drupal.org/project/username_enumeration_prevention)
+[Address](https://www.drupal.org/project/address)  
+[Admin Toolbar](https://www.drupal.org/project/admin_toolbar)  
+[Allowed Formats](https://www.drupal.org/project/allowed_formats)  
+[CKEditor Anchor Link](https://www.drupal.org/project/anchor_link)  
+[CKEditor IndentBlock](https://www.drupal.org/project/ckeditor_indentblock)  
+[Components](https://www.drupal.org/project/components)  
+[Configuration Split](https://www.drupal.org/project/config_split)  
+[Config Direct Save](https://www.drupal.org/project/config_direct_save)  
+[Contact Storage](https://www.drupal.org/project/contact_storage)  
+[Devel](https://www.drupal.org/project/devel)  
+[Diff](https://www.drupal.org/project/diff)  
+[Entityqueue](https://www.drupal.org/project/entityqueue)  
+[Facets](https://www.drupal.org/project/facets)  
+[Field Group](https://www.drupal.org/project/field_group)  
+[Focal Point](https://www.drupal.org/project/focal_point)  
+[GoogleTagManager](https://www.drupal.org/project/google_tag)  
+[Inline Entity Form](https://www.drupal.org/project/inline_entity_form)  
+[Libraries API](https://www.drupal.org/project/libraries)  
+[Login History](https://www.drupal.org/project/login_history)  
+[MaxLength](https://www.drupal.org/project/maxlength)  
+[Metatag](https://www.drupal.org/project/metatag)  
+[Paragraphs](https://www.drupal.org/project/paragraphs)  
+[Password Policy](https://www.drupal.org/project/password_policy)  
+[Pathauto](https://www.drupal.org/project/pathauto)  
+[Rabbit Hole](https://www.drupal.org/project/rabbit_hole)  
+[Redirect](https://www.drupal.org/project/redirect)  
+[Save & Edit](https://www.drupal.org/project/save_edit)  
+[Search API](https://www.drupal.org/project/search_api)  
+[Simple XML sitemap](https://www.drupal.org/project/simple_sitemap)  
+[Twig Field Value](https://www.drupal.org/project/twig_field_value)  
+[Twig Tweak](https://www.drupal.org/project/twig_tweak)  
+[Username Enumeration Prevention](https://www.drupal.org/project/username_enumeration_prevention)  
 
 ### Configuration
 Configuration occurs during site installation but can be modified and added to as needed. Config Split and Config Direct Save are included to allow for different configuration per environment and to make syncing configuration easier during development.
@@ -121,13 +121,13 @@ Once you have a starting point for development that includes Composer and Drupal
 ],
 ```
 
-Run
+Install Whiplash as a composer dependency
 
 ```
 ddev composer require forumone/whiplash
 ```
 
-Run
+Install Drupal
 
 ```
 ddev drush si whiplash -y
