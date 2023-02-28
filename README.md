@@ -1,19 +1,12 @@
 # Whiplash[![Build status](https://badge.buildkite.com/73e7fa3f732bafa8bd36b8e73e6d6faff84cbe0ec72c7bc83f.svg)](https://buildkite.com/forum-one/whiplash)
 
 - Introduction
-- Requirements
 - What comes with Whiplash?
+- Requirements
 - Installation
 
 ## Introduction
 Whiplash contains an installation profile that allows developers to quickly start a Drupal site. It includes reasonable defaults with stability, security, and the content authoring experience in mind.
-
-## Requirements
-Your development and hosting environments must be capable of running Drupal 9. See Drupal's [system requiremets](https://www.drupal.org/docs/system-requirements).
-
-This project assumes that Gesso will be used as the default theme.
-
-Whiplash needs to be installed and updated using Composer and assumes that your project includes Drupal core.
 
 ## What comes with Whiplash?
 
@@ -55,6 +48,13 @@ Whiplash comes with the following common modules installed via Composer dependen
 
 ### Configuration
 Configuration occurs during site installation but can be modified and added to as needed. Config Split and Config Direct Save are included to allow for different configuration per environment and to make syncing configuration easier during development.
+
+## Requirements
+Your development and hosting environments must be capable of running Drupal 9. See Drupal's [system requiremets](https://www.drupal.org/docs/system-requirements).
+
+This project assumes that Gesso will be used as the default theme.
+
+Whiplash needs to be installed and updated using Composer and assumes that your project includes Drupal core.
 
 ## Installation
 [DDEV](https://ddev.com/) is recommended for local development.
