@@ -59,7 +59,7 @@ Whiplash needs to be installed and updated using Composer and assumes that your 
 ## Installation
 [DDEV](https://ddev.com/) is recommended for local development.
 
-The [drupal project](https://github.com/forumone/drupal-project) template is recommended as a starting point. You can also refer to [whiplash-demo] for an example of how to use the drupal project with whiplash as a profile.
+The [drupal project](https://github.com/forumone/drupal-project) template is recommended as a starting point. You can also refer to [whiplash demo](https://github.com/forumone/whiplash-demo) for an example of how to use the drupal project with whiplash as a profile.
 
 Once you have a starting point for development that includes Composer and Drupal core, include the necessary source repositories. The source repository section should look like:
 
