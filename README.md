@@ -50,7 +50,7 @@ Whiplash comes with the following common modules installed via Composer dependen
 Configuration occurs during site installation but can be modified and added to as needed. Config Split and Config Direct Save are included to allow for different configuration per environment and to make syncing configuration easier during development.
 
 ## Requirements
-Your development and hosting environments must be capable of running Drupal 9. See Drupal's [system requiremets](https://www.drupal.org/docs/system-requirements).
+Your development and hosting environments must be capable of running Drupal 9. See Drupal's [system requirements](https://www.drupal.org/docs/system-requirements).
 
 This project assumes that Gesso will be used as the default theme.
 
