@@ -1,12 +1,22 @@
 # Whiplash[![Build status](https://badge.buildkite.com/73e7fa3f732bafa8bd36b8e73e6d6faff84cbe0ec72c7bc83f.svg)](https://buildkite.com/forum-one/whiplash)
 
 - Introduction
+- Development Branch Naming & Workflow
 - What comes with Whiplash?
 - Requirements
 - Installation
 
 ## Introduction
 Whiplash contains an installation profile that allows developers to quickly start a Drupal site. It includes reasonable defaults with stability, security, and the content authoring experience in mind.
+
+## Development Branch Naming & Workflow
+
+- Always create Feature and Bugfix branches from the `main` branch.
+- When needed, create Hotfix branches from `main`.
+- Merge, or submit a Pull Request, from Feature/Bugfix/Hotfix branches to `develop`.
+- Submit a Pull Request from Feature/Bugfix branches to current pre-release branch `1.x`.
+- Submit a Pull Request from Hotfix branches to `main`.
+- Submit a Pull Request from `1.x` to `main` for all regular releases.
 
 ## What comes with Whiplash?
 
