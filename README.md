@@ -121,7 +121,7 @@ Once you have a starting point for development that includes Composer and Drupal
 ],
 ```
 
-If you are using drupal project as a starting point make sure to remove any duplicated dependencies in the composer.json. The require section in your composer.json should look like:
+If you are using drupal project as a starting point make sure to remove any duplicated dependencies in the composer.json. The require section in your composer.json should look similar to:
 
 ```
     "require": {
