@@ -121,6 +121,24 @@ Once you have a starting point for development that includes Composer and Drupal
 ],
 ```
 
+If you are using drupal project as a starting point make sure to remove any duplicated dependencies in the composer.json. The require section in your composer.json should look like:
+
+```
+    "require": {
+        "php": ">=7.3",
+        "composer/installers": "^1.10",
+        "cweagans/composer-patches": "^1.7",
+        "drupal/core-composer-scaffold": "^9",
+        "drupal/core-recommended": "^9",
+        "drupal/core-vendor-hardening": "^9",
+        "drush/drush": "^9.7.1 | ^10.0.0",
+        "joachim-n/composer-manifest": "^1",
+        "rvtraveller/qs-composer-installer": "^1.2",
+        "vlucas/phpdotenv": "^4.0",
+        "webmozart/path-util": "^2.3"
+    },
+```
+
 Install Whiplash as a composer dependency
 
 ```
