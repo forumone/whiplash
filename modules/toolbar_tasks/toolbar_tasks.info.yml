@@ -1,0 +1,7 @@
+name: Toolbar Tasks
+type: module
+description: Moves local tasks into their own toolbar for View, Edit, Delete
+core_version_requirement: ^8 || ^9
+package: Forum One
+dependencies:
+  - toolbar
